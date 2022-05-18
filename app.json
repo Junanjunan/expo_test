@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo_test",
+    "name": "탈탈 엑스포 테스트",
     "slug": "expo_test",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.taltalrealty.taltalrealty",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.taltalrealty.taltalrealty",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
